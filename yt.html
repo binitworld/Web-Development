@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="bg-white py-1 mx-4 ml-56">
+    <div class="flex justify-between items-center h-14">
+        <div class="flex items-center justify-center flex-grow rounded-full">
+            <input type="text" placeholder="Search" class="border border-gray-300 px-3 py-2 h-10 focus:outline-none
+            focus:border-blue-600 w-2/5">
+            <button class="flex justify-center border border-gray-300 bg-gray-50  hover:bg-gray-200 h-10 pt-1 border-l-0">
+                <i class="material-icons p-3 py-1">search</i>
+            </button>
+            <button class="rounded-full bg-gray-50 hover:bg-gray-200 ml-2">
+                <i class="material-icons px-2 py-2">mic</i>
+            </button>
+        </div>
+        <div>
+            <button>
+                <i class="material-icons">more_vert</i>
+            </button>
+            <a href="https://accounts.google.com/v3/signin/identifier?dsh=S956325027%3A1667928605239238&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&ec=65620&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAtAk9Go0vSnuZeYRuXXjSt5qr4zJDjIkNlAvC9dmbEW6Hu9XUFCFNDMfrQMzXJI6ye82ddd">
+                <button class="text-blue-600 border border-gray-200 hover:bg-blue-100 rounded-full h-8 w-24 my-8 space-x-4">
+                    <i class="material-icons pt-1">account_circle</i>
+                    Sign in
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div>
+        <div class="flex items-center px-2 space-x-3 mt-2 ml-7">
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">All</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Live</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Music</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Sidhu</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Cricket</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Movies</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Travel</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Food</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Cars</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Bikes</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Sports</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Gadgets</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Trains</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Gaming</span>
+            <span class="text-sm bg-gray-100 px-3 py-1 rounded-md hover:bg-gray-200">Recent</span>
+        </div>
+    </div>
+    </header>
+
+    <!-- Sidebar menu -->
+    <aside class="fixed top-0 w-56 h-screen divide-y-2">
+        <buton class="hover:bg-gray-200">
+            <i class="material-icons m-4 p-1 rounded-full">menu</i>
+        </buton>
+        <div class="fixed top-0 ml-7 p-2">
+            <a href="http://127.0.0.1:5500/index.html">
+                <img class="h-12 w-30 px-6" src="img/yt.png" alt="YouTube">
+            </a>
+        </div>
+
+        <div class="m-4">
+            <button class="flex items-center rounded-lg h-9 hover:bg-gray-200 w-full">
+                <i class="material-icons ml-2">home</i>
+                <span class="ml-4">Home</span>
+            </button>
+
+            <button class="flex items-center rounded-lg h-9 hover:bg-gray-200 w-full">
+                <i class="material-icons ml-2">swap_vert</i>
+                <span class="ml-4">Shorts</span>
+            </button>
+
+            <button class="flex items-center rounded-lg h-9 hover:bg-gray-200 w-full">
+                <i class="material-icons ml-2">subscriptions</i>
+                <span class="ml-4">Subscriptions</span>
+            </button>
+            </div>
+        </div>
+
+        <div class="m-4">
+            <button class="flex items-center rounded-lg h-9 hover:bg-gray-200 w-full mt-2">
+                <i class="material-icons ml-2">video_library</i>
+                <span class="ml-4">Library</span>
+            </button>
+            
+            <button class="flex items-center rounded-lg h-9 hover:bg-gray-200 w-full">
+                <i class="material-icons ml-2">history</i>
+                <span class="ml-4">History</span>
+            </button>
+        </div>
+        
+        <div class="m-5">
+            <span class="text-sm flex items-center p-2 mt-2">Sign in to like videos, comment, and subscribe.</span>
+            <a href="https://accounts.google.com/v3/signin/identifier?dsh=S956325027%3A1667928605239238&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&ec=65620&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAtAk9Go0vSnuZeYRuXXjSt5qr4zJDjIkNlAvC9dmbEW6Hu9XUFCFNDMfrQMzXJI6ye82ddd">
+                <button class="text-blue-600 border border-gray-200 hover:bg-blue-100 rounded-full h-8 w-24 mt-2 ml-2">
+                    <i class="material-icons pt-1">account_circle</i>
+                    Sign in
+                </button>
+            </a>
+        </div>
+    </aside>
+    
+    <!-- Main Video section -->
+    <main class="ml-64 mt-9">
+    <div class="border-b-4 border-gray-300 pb-36">
+        <div class="grid grid-cols-4 gap-y-32">
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=tpFljbJxZiw">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/levels.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">Levels</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>Sidhu Moosewala</p>
+                            <p>6.4M views &middot; 2 months ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=FT3ODSg1GFE">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/apple.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">iPhone 14</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>Apple</p>
+                            <p>100M views &middot; 1 months ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=IFEgoQsblC0">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/lr.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">Lightroom</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>LR</p>
+                            <p>20M views &middot; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=5Eqb_-j3FDA">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/psr.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">Pasoori</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>Coke Studio</p>
+                            <p>250M views &middot; 6 months ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=qWIkBMNKj1s">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/s22.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">Galaxy S22</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>Samsung</p>
+                            <p>300M views &middot; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=F3UfvNsOvu8">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/attk.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">Attack</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>India</p>
+                            <p>900M views &middot; 7 days ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=TXbxiAsK3x4">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/mbn.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">Mr. Bean</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>Bean</p>
+                            <p>150M views &middot; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="w-64">
+                <div class="h-40 width-full">
+                    <a href="https://www.youtube.com/watch?v=IuTDuvYr7f0">
+                        <img class="object-cover h-40 w-64 rounded-lg" src="img/japan.jpg">
+                    </a>
+                    <div class="flex">
+                        <div class="h-9 w-9 bg-gray-200 mt-5 rounded-full flex-shrink-0"></div>
+                        <div class="text-sm mt-4 font-semibold pl-2">Travel</div>
+                        <div class="text-xs pt-1 text-gray-800 mt-8">
+                            <p>Travel</p>
+                            <p>24M views &middot; 11 months ago</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+        </main>
+</body>
+</html>
