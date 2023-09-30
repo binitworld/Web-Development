@@ -1,0 +1,7 @@
+
+ Def of Html:
+Html stands for Hyper Text Markup Languages 
+
+Html -- What is the work / mapping/ leveling 
+Css -- It provides the Designing / Styling / appearance related work 
+Js-- Kind of Brain all main  logic work
