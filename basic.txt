@@ -5,3 +5,15 @@ Html stands for Hyper Text Markup Languages
 Html -- What is the work / mapping/ leveling 
 Css -- It provides the Designing / Styling / appearance related work 
 Js-- Kind of Brain all main  logic work
+ 
+
+
+ There are different types of tags in Html :-- h1 tag 
+                                               h2 tags
+                                               section tags
+                                               form tags
+                                               p tags for paragraphs
+                                               articles tags
+                                               html tags -- to writes the html documents
+                                               <>--opening </>-- Closing tag
+                                               
