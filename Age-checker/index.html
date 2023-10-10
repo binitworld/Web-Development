@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Checker</title>
+</head>
+<style>
+    body {
+        background-color: rgb(234, 227, 15);
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+    h1 {
+        font-style: bold;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    input[type="number"] {
+        font-size: 55px;
+        margin-top: 20px;
+    }
+    button {
+        font-size: 18px;
+        margin-top: 20px;
+        background-color: rgb(3, 33, 57);
+        color: rgb(242, 7, 7);
+        border: none;
+        padding: 20px;
+        cursor: pointer;
+        width: 20%;
+        margin: 0 auto;
+    }
+    div {
+        margin-top: 20px;
+    }
+
+    .output-box {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+    }
+
+    output {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        text-align: end;
+        position: fixed;
+        justify-content: end;
+        padding-bottom: 20px;
+        bottom: 0;
+        width: 57%;
+        margin: auto 0;
+    }
+</style>
+<body>
+    <h1 style="color:black"><b>Age Checker</b></h1>
+    <input
+        type="number"
+        placeholder="Enter Your Age"
+        id="ageInput"
+    />
+    <button onclick="checkAge()">Check Age</button>
+    <output>
+        <div class="output-box" id="output1"></div>
+        <div class="output-box" id="output2"></div>
+        <div class="output-box" id="output3"></div>
+        <div class="output-box" id="output4"></div>
+    </output>
+
+    <footer>
+        <p style="color:green">&copy; All Rights Are Reserved To <a href="https://github.com/binitworld"><u>binitworld</u></a> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
